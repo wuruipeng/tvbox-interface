@@ -1,1 +1,73 @@
-{"_info":"Jerry 自用 TVBox 接口 · 2026-10-08 修订：点播站为列表接口可达性实测（未做播放实测）；已移除失效的虾米解析；m3u8解析修正为网页解析类型","sites":[{"key":"hongniu","name":"红牛资源","type":1,"api":"https://hongniuzy2.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},{"key":"liangzi","name":"量子资源","type":1,"api":"https://cj.lziapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},{"key":"360zy","name":"360资源","type":1,"api":"https://360zyzz.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},{"key":"jinying","name":"金鹰资源","type":1,"api":"http://jyzyapi.com/provide/vod","searchable":1,"quickSearch":1,"filterable":1},{"key":"guangsu","name":"光速资源","type":1,"api":"https://api.guangsuapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},{"key":"yutu","name":"鱼兔资源","type":1,"api":"https://apiyutu.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},{"key":"shandian","name":"闪电资源","type":1,"api":"http://sdzyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},{"key":"baofeng","name":"暴风资源","type":1,"api":"https://bfzyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},{"key":"tianya","name":"天涯资源","type":1,"api":"https://tyyszy.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},{"key":"maotai","name":"茅台资源","type":1,"api":"https://caiji.maotaizy.cc/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},{"key":"feifan","name":"非凡资源","type":1,"api":"https://ffzy5.tv/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},{"key":"jisu","name":"极速资源","type":1,"api":"https://jszyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},{"key":"kuaiche","name":"快车资源","type":1,"api":"https://caiji.kuaichezy.org/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},{"key":"suoni","name":"索尼资源","type":1,"api":"https://suoniapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},{"key":"huohu","name":"火狐资源","type":1,"api":"https://hhzyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},{"key":"zy1080ku","name":"1080高清库","type":1,"api":"https://api.1080zyku.com/inc/apijson.php","searchable":1,"quickSearch":1,"filterable":1},{"key":"ikun","name":"爱坤资源","type":1,"api":"https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json","searchable":1,"quickSearch":1,"filterable":1},{"key":"hupo","name":"琥珀资源","type":1,"api":"https://www.huyaapi.com/api.php/provide/vod/from/hym3u8","searchable":1,"quickSearch":1,"filterable":1},{"key":"dytt","name":"电影天堂","type":1,"api":"http://caiji.dyttzyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},{"key":"uku","name":"尤酷资源","type":1,"api":"https://api.ukuapi88.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},{"key":"bdzy","name":"百度资源","type":1,"api":"https://api.apibdzy.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},{"key":"feifan2","name":"非凡备用","type":1,"api":"http://cj.ffzyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},{"key":"jianan","name":"建安云","type":1,"api":"http://154.219.117.232:9981/jacloudapi.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},{"key":"changzhang","name":"厂长","type":3,"api":"csp_NewCzGuard","searchable":1,"quickSearch":1,"changeable":1},{"key":"guazi","name":"瓜子","type":3,"api":"csp_AppgzGuard","searchable":1,"quickSearch":1,"changeable":1},{"key":"bite","name":"比特","type":3,"api":"csp_BttwooGuard","searchable":1,"quickSearch":1,"changeable":1},{"key":"nuomi","name":"糯米","type":3,"api":"csp_NmyswvGuard","searchable":1,"quickSearch":1,"changeable":1},{"key":"wencai","name":"文采","type":3,"api":"csp_JpysGuard","searchable":1,"quickSearch":1,"changeable":1},{"key":"360zy2","name":"360备用","type":1,"api":"https://360zy.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1}],"parses":[{"name":"m3u8解析","type":0,"url":"https://jx.m3u8.tv/jiexi/?url="},{"name":"夜幕解析","type":0,"url":"https://www.yemu.xyz/?url="},{"name":"冰豆解析","type":0,"url":"https://bd.jx.cn/?url="},{"name":"盘古解析","type":0,"url":"https://www.playm3u8.cn/jiexi.php?url="}],"lives":[{"name":"电视直播·全量","type":0,"url":"https://cdn.jsdelivr.net/gh/ChungyuCheung/cy-iptv@main/tv/iptv4.m3u"},{"name":"电视直播·全量备用","type":0,"url":"https://ghfast.top/raw.githubusercontent.com/ChungyuCheung/cy-iptv/main/tv/iptv4.m3u"},{"name":"电视直播·精选","type":0,"url":"https://cdn.jsdelivr.net/gh/ChungyuCheung/cy-iptv@main/tv/favorites.m3u"},{"name":"电视直播·24live","type":0,"url":"https://urlzf.zone.id/iptv-api/output/user_result.m3u"},{"name":"电视直播·Kimentanm","type":0,"url":"https://ghfast.top/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u"}],"doh":[{"name":"阿里","url":"https://dns.alidns.com/dns-query","ips":["223.5.5.5","223.6.6.6"]},{"name":"DNSPod","url":"https://doh.pub/dns-query","ips":["119.29.29.29"]}],"spider":"https://qist.wyfc.qzz.io/jar/fan.txt;md5;2386c62eb5f0b84dd53e27ad0fe9db49"}
+{
+  "_info": "Jerry 自用 TVBox 接口 · 无JAR排查版 · 保留采集点播和直播；移除Guard爬虫依赖；未做播放实测",
+  "sites": [
+    {"key":"hongniu","name":"红牛资源","type":1,"api":"https://hongniuzy2.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"liangzi","name":"量子资源","type":1,"api":"https://cj.lziapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"360zy","name":"360资源","type":1,"api":"https://360zyzz.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"jinying","name":"金鹰资源","type":1,"api":"http://jyzyapi.com/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"guangsu","name":"光速资源","type":1,"api":"https://api.guangsuapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"yutu","name":"鱼兔资源","type":1,"api":"https://apiyutu.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"shandian","name":"闪电资源","type":1,"api":"http://sdzyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"baofeng","name":"暴风资源","type":1,"api":"https://bfzyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"tianya","name":"天涯资源","type":1,"api":"https://tyyszy.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"maotai","name":"茅台资源","type":1,"api":"https://caiji.maotaizy.cc/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"feifan","name":"非凡资源","type":1,"api":"https://ffzy5.tv/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"jisu","name":"极速资源","type":1,"api":"https://jszyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"kuaiche","name":"快车资源","type":1,"api":"https://caiji.kuaichezy.org/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"suoni","name":"索尼资源","type":1,"api":"https://suoniapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"huohu","name":"火狐资源","type":1,"api":"https://hhzyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"zy1080ku","name":"1080高清库","type":1,"api":"https://api.1080zyku.com/inc/apijson.php","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"ikun","name":"爱坤资源","type":1,"api":"https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"hupo","name":"琥珀资源","type":1,"api":"https://www.huyaapi.com/api.php/provide/vod/from/hym3u8","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"dytt","name":"电影天堂","type":1,"api":"http://caiji.dyttzyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"uku","name":"尤酷资源","type":1,"api":"https://api.ukuapi88.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"bdzy","name":"百度资源","type":1,"api":"https://api.apibdzy.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"feifan2","name":"非凡备用","type":1,"api":"http://cj.ffzyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
+    {"key":"jianan","name":"建安云","type":1,"api":"http://154.219.117.232:9981/jacloudapi.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1}
+  ],
+  "parses": [
+    {"name":"m3u8解析","type":0,"url":"https://jx.m3u8.tv/jiexi/?url="},
+    {"name":"夜幕解析","type":0,"url":"https://www.yemu.xyz/?url="},
+    {"name":"冰豆解析","type":0,"url":"https://bd.jx.cn/?url="},
+    {"name":"盘古解析","type":0,"url":"https://www.playm3u8.cn/jiexi.php?url="}
+  ],
+  "lives": [
+    {
+      "name":"电视直播·全量",
+      "type":0,
+      "url":"https://cdn.jsdelivr.net/gh/ChungyuCheung/cy-iptv@main/tv/iptv4.m3u"
+    },
+    {
+      "name":"电视直播·全量备用",
+      "type":0,
+      "url":"https://ghfast.top/raw.githubusercontent.com/ChungyuCheung/cy-iptv/main/tv/iptv4.m3u"
+    },
+    {
+      "name":"电视直播·精选",
+      "type":0,
+      "url":"https://cdn.jsdelivr.net/gh/ChungyuCheung/cy-iptv@main/tv/favorites.m3u"
+    },
+    {
+      "name":"电视直播·24live",
+      "type":0,
+      "url":"https://urlzf.zone.id/iptv-api/output/user_result.m3u"
+    },
+    {
+      "name":"电视直播·Kimentanm",
+      "type":0,
+      "url":"https://ghfast.top/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u"
+    }
+  ],
+  "doh": [
+    {
+      "name":"阿里",
+      "url":"https://dns.alidns.com/dns-query",
+      "ips":["223.5.5.5","223.6.6.6"]
+    },
+    {
+      "name":"DNSPod",
+      "url":"https://doh.pub/dns-query",
+      "ips":["119.29.29.29"]
+    }
+  ]
+}
